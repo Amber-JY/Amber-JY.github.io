@@ -6,7 +6,9 @@ description: 使用禁忌搜索（TabuSearch）算法、混合进化算法（Hyb
 
 ## 引言
 
-Becoming a super hero is a fairly straight forward process:
+对于优化问题有以下分类:
+
+![](../.gitbook/assets/20170112160649586.jpg)
 
 {% hint style="info" %}
  Super-powers are granted randomly so please submit an issue if you're not happy with yours.
