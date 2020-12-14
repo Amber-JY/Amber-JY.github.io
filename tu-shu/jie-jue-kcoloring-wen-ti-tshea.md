@@ -2,7 +2,7 @@
 description: 使用禁忌搜索（TabuSearch）算法、混合进化算法（HybridsEvolution Algorithm）解决K色图涂色问题。
 ---
 
-# 解决K-coloring问题——TS、HEA
+# 解决K-coloring问题——TS、HEA、HEAD
 
 ## 引言
 
@@ -348,7 +348,15 @@ Color:49
 
 ## 三、混合进化算法（HEA）：禁忌算法进阶
 
+### 基本思想
 
+![HEA&#x57FA;&#x672C;&#x6846;&#x67B6;](../.gitbook/assets/image.png)
+
+在当前的群体中，随机选取两个种群进行交叉算符操作，得到一个新的种群，然后使用该种群替换群体中评价最差的哪个种群，重复操作直到符合条件。
+
+该过程如同自然选择的过程，种群发生基因突变，适应环境的基因留存，不适应的基因被淘汰。那么该过程中的“基因突变”：交叉算符是怎么产生的呢？
+
+![&#x4EA4;&#x53C9;&#x7B97;&#x7B26;&#x8FC7;&#x7A0B;&#x793A;&#x610F;](../.gitbook/assets/snipaste_2020-12-14_19-58-08.png)
 
 
 
@@ -375,6 +383,4 @@ Color:49
 [https://www.jianshu.com/p/00aba9b8c017](https://www.jianshu.com/p/00aba9b8c017)
 
 [https://www.cnblogs.com/dengfaheng/p/9737556.html](https://www.cnblogs.com/dengfaheng/p/9737556.html)
-
-
 
