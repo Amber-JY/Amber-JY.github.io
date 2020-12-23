@@ -251,7 +251,7 @@ void Make_step(const int delt_, const int iter){
     int old_color = Ver_Col[ChgCol_Methods[snum][0]];
     int new_color = ChgCol_Methods[snum][1];
     Ver_Col[ChgCol_Methods[snum][0]] = new_color;//变更颜色
-    tabu_tenure[ChgCol_Methods[snum][0]][new_color] = iter + BURDEN;
+    tabu_tenure[ChgCol_Methods[snum][0]][old_color] = iter + BURDEN;
     int nb_num = Adj_num[ChgCol_Methods[snum][0]];
     for (int i = 0; i < nb_num;i++){
         int tem_id = NB_id[ChgCol_Methods[snum][0]][i];
