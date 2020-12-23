@@ -206,7 +206,7 @@ void Initiate(string ex_path){
     tabu_tenure = new int *[Ver_num];
     for (int i = 0; i < Ver_num;i++){
         tabu_tenure[i] = new int[Ver_num];
-        for (int j = 0; j < Ver_num;j++)
+        for (int j = 0; j < Col_num;j++)
             tabu_tenure[i][j] = 0;
     }
 
